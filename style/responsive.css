@@ -1,0 +1,42 @@
+@media screen and (max-width:700px){
+    header {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .butao1{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .butao {
+        margin-top: 5px;
+        width: 300px;
+    }
+    
+    .conteiner {
+        padding: 50px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:1000px){
+   
+    .conteiner {
+        margin-top: 25%;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    
+    .conteiner {
+    width: 100%;
+    margin-top: 100%;
+    }
+    
+    .descricao {
+        display: none;
+    }
+    
+}
